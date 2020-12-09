@@ -4,7 +4,7 @@
 This is a simple Python program that creates a simulation containing a population of
 a single Species. The population grows and shrinks based on the Species' probability of death and/or repopulation.
 
-The structure of the program is very basic. There is a simulator class, and a species class. The species has two actions: mate, and die. Simple enough. The Simulator runs in a specified amount of steps. During each step, a specimen can either mate, die, both, or neither. By default, the probabilities (found in __main__ within `simulator.py`) for dying and mating are set to `0.5` (50% chance of each). You can modify this and play with the values all you want.
+The structure of the program is very basic. There is a simulator class, and a species class. The species has two actions: mate, and die. Simple enough. The Simulator runs in a specified amount of steps. During each step, a specimen can either mate, die, both, or neither. By default, the probabilities (found in `__main__` within `simulator.py`) for dying and mating are set to `0.5` (50% chance of each). You can modify this and play with the values all you want.
 
 I plan to add basic graphing and also modify the structure of the simulator such that multiple types of species can be added to a single simulation.
 
