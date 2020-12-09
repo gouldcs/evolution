@@ -11,7 +11,7 @@ I plan to add basic graphing and also modify the structure of the simulator such
 ## Running the simulation
 Running the simulation is as barebones as it gets. I developed this using Pyhon 3.8.6, though any version of Python 3 should work (I will not be supporting Python 2).
 
-1. open terminal, and make your way to .../evolution/src
+1. open terminal, and `cd` your way to `wherever/you/installed/evolution/src`
 2. run `python3 simulator.py`
 
 Congratulations. You did it! 
