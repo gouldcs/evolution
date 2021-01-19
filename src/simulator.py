@@ -8,7 +8,7 @@ class Simulator():
   death_rate = 0.0
   population = None
 
-  def __init__(self, simulated_steps, init_pop, repop, death):
+  def __init__(self, simulated_steps, init_pop, allSpecies[]):
     """A Simulator utilizes species to simulate
        some action over a set of steps. Steps are
        an ambiguous time period that is not specified.
@@ -28,7 +28,7 @@ class Simulator():
 
   def step(self):
     """Performs a single step in the simulation"""
-    
+
     newborns = []
     survivors = []
     deaths = []
